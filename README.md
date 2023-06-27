@@ -3,12 +3,35 @@ Laravel10 vue3 inertia vite
 
 Full manual: https://nimb.ws/lyanwE
 
-##Install laravel valet
+## 1-Install laravel valet composer
 ```
-//1
 composer global require laravel/valet
-
-//2
+```
+## 2
+```
 valet install
 ```
+## 3
+```
+valet link
+```
+```
+valet secure
+```
 
+## 4
+```
+cp .env.example .env
+```
+```
+php artisan key:generate
+```
+
+## 5
+```
+composer install
+```
+```
+npm i && npm run dev
+```
+## Go to https://laravel10-vue-inertia.test
