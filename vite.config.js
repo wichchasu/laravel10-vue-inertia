@@ -7,7 +7,7 @@ export default defineConfig({
         laravel({
             input: ['resources/css/app.css', 'resources/js/app.js'],
             refresh: true,
-            valetTls: 'laravel-vue-inertia.test',
+            valetTls: 'laravel10-vue-inertia.test',
         }),
         vue({
             template: {
